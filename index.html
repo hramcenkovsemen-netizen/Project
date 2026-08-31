@@ -1,1 +1,104 @@
 <!-- Здесь будет структура Веб-страницы -->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Храмченков Семён — Портфолио</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="avatar-wrapper">
+          <div class="avatar">
+            <img src="QNe6FuU8UgLB9AqDL-7CgG-5tc_MbjKG73QX9EAonYouwGXvuVkM7P3BI06njDqk38ujfQiRdOzmiWAASqbUSGjd.jpg" alt="Аватар Семёна Храмченкова" loading="lazy">
+          </div>
+        </div>
+        <nav class="nav-menu">
+          <button class="nav-btn active">Profile</button>
+          <a href="#projects" class="nav-btn">Projects</a>
+          <a href="#nm" class="nav-btn">Information</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-banner">
+      <div class="container hero-overlay">
+        <h1 class="hero-name">Храмченков Семён</h1>
+        <p class="hero-subtitle">Web‑разработка и Python‑логика</p>
+      </div>
+    </section>
+
+    <section class="section about-section">
+      <div class="container about-content">
+        <div class="about-row">
+          <div class="about-avatar-placeholder">
+            <img src="QNe6FuU8UgLB9AqDL-7CgG-5tc_MbjKG73QX9EAonYouwGXvuVkM7P3BI06njDqk38ujfQiRdOzmiWAASqbUSGjd.jpg" alt="Аватар Семёна" loading="lazy">
+          </div>
+          <div class="about-text">
+            <p>Всем здравствуйте! Я занимаюсь Web‑разработкой на 3‑х языках программирования: HTML, CSS, JS. А также программированием логических операций на языке Python.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section">
+      <div class="container">
+        <h2 id="nm" class="section-title">Мои навыки</h2>
+        <div class="skills-grid">
+          <div class="skill-icon html-icon">HTML</div>
+          <div class="skill-icon css-icon">CSS</div>
+          <div class="skill-icon js-icon">JS</div>
+          <div class="skill-icon py-icon">Python</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section">
+      <div class="container">
+        <h2 id="projects" class="section-title">Мои проекты</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <!-- Картинка проекта 1: project1.jpg -->
+              <img src="Снимок экрана 2026-08-23 195820.png" alt="Скриншот проекта 1" loading="lazy">
+            </div>
+            <h3 class="project-title"></h3>
+            <p class="project-desc"></p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <!-- Картинка проекта 2: project2.jpg -->
+              <img src="Снимок экрана 2026-08-12 204321.png" alt="Скриншот проекта 2" loading="lazy">
+            </div>
+            <h3 class="project-title"></h3>
+            <p class="project-desc"></p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <!-- Картинка проекта 3: project3.jpg -->
+              <img src="Снимок экрана 2026-08-12 204120.png" alt="Скриншот проекта 3" loading="lazy">
+            </div>
+            <h3 class="project-title"></h3>
+            <p class="project-desc"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <span>Связь со мной</span>
+        <a href="#" class="tg-link">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 22 8 14 2 9 22 2z"></path></svg>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
